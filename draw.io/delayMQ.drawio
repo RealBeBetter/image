@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T07:07:16.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" version="21.1.2" etag="xf8050oEqZZl81jJZVld" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T07:08:22.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="7HZQNHA9ErLA5Rh0CbBc" version="21.1.2" type="github">
   <diagram name="第 1 页" id="KVLlsTH6JfyhYvVns7Bs">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w7_L6hL2PebA5VUntDRN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-2" target="w7_L6hL2PebA5VUntDRN-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-2" value="RocketMQ" style="shape=mxgraph.flowchart.direct_data;html=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" diagramName="DirectData" diagramCategory="Flowchart" parent="1">
+          <mxGeometry x="360" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-4" target="w7_L6hL2PebA5VUntDRN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-4" value="Applicant&lt;br /&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;whiteSpace=wrap;strokeWidth=2;" vertex="1" diagramName="Actor" diagramCategory="general" parent="1">
+          <mxGeometry x="120" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-5" value="Approver" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;whiteSpace=wrap;strokeWidth=2;" vertex="1" diagramName="Actor" diagramCategory="general" parent="1">
+          <mxGeometry x="700" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-7" target="w7_L6hL2PebA5VUntDRN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-7" value="产生审批，并附带过期时间" style="shape=parallelogram;perimeter=parallelogramPerimeter;html=1;whiteSpace=wrap;strokeWidth=2;" vertex="1" diagramName="Parallelogram" diagramCategory="general" parent="1">
+          <mxGeometry x="75" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-8" value="2H Delay Msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="258" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-11" target="w7_L6hL2PebA5VUntDRN-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-11" target="w7_L6hL2PebA5VUntDRN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-11" value="&lt;span style&gt;Listener 判断是否过期？&lt;/span&gt;" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;" vertex="1" diagramName="Diamond" diagramCategory="general" parent="1">
+          <mxGeometry x="655" y="377.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="w7_L6hL2PebA5VUntDRN-13" target="w7_L6hL2PebA5VUntDRN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-13" value="重新投递" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="370" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-14" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w7_L6hL2PebA5VUntDRN-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
