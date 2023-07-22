@@ -1,4 +1,4 @@
-## picGo_image
+## PicGo Image
 
 #### 介绍
 
